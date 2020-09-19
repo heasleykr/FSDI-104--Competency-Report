@@ -1,0 +1,39 @@
+body{
+    background-color: #d0f2fb;
+}
+#form{
+    /* background-image: url(../img/woodTrial3.jpg); */
+    background-color: white;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+#form h2{
+    display: flow;
+    text-align: center;
+    padding-top: 1rem;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+.btn-success{
+    font-size: 1.3rem;
+    background-color: #8cbade;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    margin-right: 1rem;
+    padding: 1rem;
+    border: 1px solid #8cbade;
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+.btn-success:hover{
+    /* the !important means that the computer HAS TO execute this one. It's the most important */
+    background-color: blue!important; 
+    filter: drop-shadow(4px 10px 4px #3b3b44);
+}
+.pet{
+    background-color: white;
+    border: 1px solid black;
+    margin: 1rem;
+    padding: 1rem;
+}
+#petSection{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
